@@ -4,6 +4,7 @@ from typing import Dict, List, Optional
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 from utils.headers import headers
+from Scraper.CaptchaSolver import *
 
 
 
@@ -40,13 +41,27 @@ class GroupsMembersScraper:
             self.page.fill('input[name="session_password"]', self.password)
             self.page.click('button[type="submit"]')
             self.page.wait_for_load_state('networkidle')
-            print("Logged in successfully")
+            
+            captcha_solver = CaptchaSolver(self.page)
+            if captcha_solver.detect_captcha():
+                print("Captcha detected after login attempt!")
+                
+                if captcha_solver.solve_captcha():
+                    print("Captcha solved automatically!")
+                else:
+                    print("Automatic captcha solving failed. Trying manual approach...")
+                    if captcha_solver.wait_for_manual_solve(timeout=120):
+                        print("Captcha solved manually!")
+                    else:
+                        raise Exception("Captcha solving failed - manual intervention required")
+
             self.page.wait_for_timeout(2000)
         except Exception as e:
             print(f"Login failed: {e}")
 
-    def scroll_to_load_all_members(self):
 
+
+    def scroll_to_load_all_members(self):
         prev_height = 0
 
         while True:
@@ -54,7 +69,6 @@ class GroupsMembersScraper:
             self.page.wait_for_timeout(random.uniform(0.2, 0.5) * 1000)
 
             show_more_btn = self.page.query_selector('button:has-text("Show more results"), button:has-text("Afficher plus de résultats")')
-
             if show_more_btn:
                 try:
                     show_more_btn.click()
@@ -70,11 +84,8 @@ class GroupsMembersScraper:
 
         
 
-
-        
     def get_members_urls(self, group_url,search=None) :
         self.page.goto(group_url)
-
         members_urls = []
 
         try:
@@ -94,14 +105,11 @@ class GroupsMembersScraper:
             self.page.wait_for_timeout(2000)
             
             if search:
-
                 self.page.fill('input[placeholder="Search members"], input[placeholder="Chercher des membres"]', search)
-
                 self.page.keyboard.press("Enter")
                 self.page.wait_for_timeout(2000)
 
             self.scroll_to_load_all_members()
-
             content = self.page.content()
             soup = BeautifulSoup(content, 'html.parser')
             member_elements = soup.select_one('ul.artdeco-list.groups-members-list__results-list')
@@ -120,15 +128,15 @@ class GroupsMembersScraper:
             return members_urls
         
 
+
     def get_members_infos(self,members_urls):
-        
         members = []
 
         for member_url in members_urls:
             try:
                 self.page.goto(member_url)
                 self.page.wait_for_timeout(2000)
-                name = self.page.query_selector('h1.t-24').inner_text().strip() if self.page.query_selector('h1.text-heading-xlarge') else None
+                name = self.page.query_selector('h1.CoYQrHnsjyAPOaMMSxtfPHyUhTgTKmYomTM.inline.t-24.v-align-middle.break-words').inner_text().strip() if self.page.query_selector('h1.CoYQrHnsjyAPOaMMSxtfPHyUhTgTKmYomTM.inline.t-24.v-align-middle.break-words') else None
                 headline = self.page.query_selector('div.text-body-medium.break-words').inner_text().strip() if self.page.query_selector('div.text-body-medium.break-words') else None
                 country = self.page.query_selector('span.text-body-small.inline.t-black--light.break-words').inner_text().strip() if self.page.query_selector('span.text-body-small.inline.t-black--light.break-words') else None
                 members.append({
@@ -156,13 +164,13 @@ class GroupsMembersScraper:
             dict_writer.writerows(members)
         print(f"Saved {len(members)} members to {filename}")
 
-    
+
+
     def save_to_json(self, members, filename: str):
         with open(filename, 'w', encoding='utf-8') as output_file:
             json.dump(members, output_file, ensure_ascii=False, indent=4)
             print(f"Saved data to {filename}")
     
-
 
 
     def run(self, group_url, output_urls_file,output_members_file,search=None):

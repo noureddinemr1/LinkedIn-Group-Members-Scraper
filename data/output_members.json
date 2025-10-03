@@ -1,296 +1,182 @@
 [
     {
-        "name": null,
-        "headline": "CEO & FOUNDER (ACORDO)",
-        "country": "Banaadir, Somalie",
-        "profile_url": "https://www.linkedin.com/in/yasin-ahmed-osman-66466019b/"
+        "name": "Kyle Chester Hernandez",
+        "headline": "Entrepreneur at RSRH Livestock Corporation",
+        "country": "Manille, Région Capitale Nationale, Philippines",
+        "profile_url": "https://www.linkedin.com/in/kyle-chester-hernandez-9a8372383/"
     },
     {
-        "name": null,
-        "headline": "Head of HR at Shirazi Trading Company (Pvt.) Ltd.",
-        "country": "Karachi, Sind, Pakistan",
-        "profile_url": "https://www.linkedin.com/in/adeelbukhari/"
+        "name": "Lily Logan",
+        "headline": "Retail Farm Associate at Atkinson Farms",
+        "country": "College Station, Texas, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/lily-logan-671300381/"
     },
     {
-        "name": null,
-        "headline": "Founder and CEO of London Tigers",
-        "country": "Londres, Angleterre, Royaume-Uni",
-        "profile_url": "https://www.linkedin.com/in/mesba-ahmed-mbe-62324026/"
+        "name": "Ronique P.",
+        "headline": "Public Health & Wellness Leader | Equity Advocate | Community Engagement & Mentorship",
+        "country": "San Antonio, Texas, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/ronique-pleasant/"
     },
     {
-        "name": null,
-        "headline": "Chief Executive Officer",
+        "name": "Ella P. Jeff",
+        "headline": "Project Manager | Fluor Corporation | Driving Complex Projects to Successful Delivery",
+        "country": "Békéscsaba, Békés, Hongrie",
+        "profile_url": "https://www.linkedin.com/in/ella-p-jeff-455450388/"
+    },
+    {
+        "name": "JAVIER (Ejecutivo de Ventas) APOLONIO SOBERA",
+        "headline": "Vendedor en RAZIBA POP.",
+        "country": "Atizapán de Zaragoza, Mexico, Mexique",
+        "profile_url": "https://www.linkedin.com/in/javier-apolonio-sobera-91461319a/"
+    },
+    {
+        "name": "Darren Thomson",
+        "headline": "Product Professional | Self-Service |Digital Transformation | Mobile Apps | CX | Innovation & Product Strategy",
+        "country": "Australie",
+        "profile_url": "https://www.linkedin.com/in/darrenthomsonnz/"
+    },
+    {
+        "name": "Hayden Noel",
+        "headline": "Student at Indiana University Bloomington",
+        "country": "Bloomington, Indiana, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/hayden-noel/"
+    },
+    {
+        "name": "Sarah Trick",
+        "headline": "Journalist, writer, editor",
+        "country": "Ottawa, Ontario, Canada",
+        "profile_url": "https://www.linkedin.com/in/sarah-trick-aa0a3859/"
+    },
+    {
+        "name": "Jean-Claude Aba Akam",
+        "headline": "Public Health Expert / Field Epidemiologist, Cameroon",
+        "country": "Cameroun",
+        "profile_url": "https://www.linkedin.com/in/jean-claude-aba-akam-36636a35/"
+    },
+    {
+        "name": "Sofia Favila, MBA",
+        "headline": "Business Strategist | Cloud Generation Specialist",
+        "country": "Montréal, Québec, Canada",
+        "profile_url": "https://www.linkedin.com/in/sofia-favila/"
+    },
+    {
+        "name": "Bradley Weston",
+        "headline": "Senior Executive at Lear Corporation",
         "country": "États-Unis",
-        "profile_url": "https://www.linkedin.com/in/imtiazbaibers/"
+        "profile_url": "https://www.linkedin.com/in/bradley-weston-22944b388/"
     },
     {
-        "name": null,
-        "headline": "Étudiant(e) à Institut supérieur d’informatique ISI",
-        "country": "Tunis, Gouvernorat Tunis, Tunisie",
-        "profile_url": "https://www.linkedin.com/in/ahmed-neji-777775388/"
-    },
-    {
-        "name": null,
-        "headline": "CEO",
-        "country": "Sydney et périphérie",
-        "profile_url": "https://www.linkedin.com/in/farid-ahmed-33ab5b83/"
-    },
-    {
-        "name": null,
-        "headline": "CEO at SmartCrowd | Founder at EqualEd Charity | Oxford | Harvard | UCL",
-        "country": "Doubaï, Émirats arabes unis",
-        "profile_url": "https://www.linkedin.com/in/riz-ahmed-9737a07a/"
-    },
-    {
-        "name": null,
-        "headline": "Head of Procurement At Elvan Egypt",
-        "country": "Le Caire, Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmed-mohamedboudy/"
-    },
-    {
-        "name": null,
-        "headline": "Founder & CEO في SAUDI FITNESS Sports",
-        "country": "Riyad, Arabie saoudite",
-        "profile_url": "https://www.linkedin.com/in/ahmed-al-fehaid-08583a95/"
-    },
-    {
-        "name": null,
-        "headline": "Founder & CEO",
-        "country": "Doubaï, Émirats arabes unis",
-        "profile_url": "https://www.linkedin.com/in/a-ahmed-investain/"
-    },
-    {
-        "name": null,
-        "headline": "CEO & Founder at NKS Technologies",
+        "name": "Aliyah (Ally) Vidales",
+        "headline": "Aspiring Criminal Psychologist | Psychology Student at ASU | Passionate About Mental Health & Criminal Justice",
         "country": "États-Unis",
-        "profile_url": "https://www.linkedin.com/in/nauman-a-khan-31858a65/"
+        "profile_url": "https://www.linkedin.com/in/aliyah-vidales-85a6b02a9/"
+    },
+    {
+        "name": "Anna G.",
+        "headline": "S4L Project Coordinator @ Rees Foundation | Supporting Care-Experienced Adults | Project Management | Equity & Inclusion Advocate",
+        "country": "Birmingham, Angleterre, Royaume-Uni",
+        "profile_url": "https://www.linkedin.com/in/anna-g-2b18b1a6/"
+    },
+    {
+        "name": "Johanna T.",
+        "headline": "Project & Team Support | Scrum & Agile Foundations | Customer Service & Communication Specialist | Helping Businesses Stay Organized & Clients Satisfied",
+        "country": "Porto Rico",
+        "profile_url": "https://www.linkedin.com/in/johannatorrespr/"
+    },
+    {
+        "name": "Omotola Mohamed",
+        "headline": "I’m a Realtor dedicated to helping clients buy, sell, and invest with confidence. Through Moh Homes, I deliver “Real Estate at Its Peak”by combining market expertise, strong negotiation skills,and a client-first approach",
+        "country": "Lagos, État de Lagos, Nigéria",
+        "profile_url": "https://www.linkedin.com/in/omotola-mohamed-53645928a/"
+    },
+    {
+        "name": "Rosie Wingate",
+        "headline": "Student at Christendom College | Co-Manager at L&R Painting Company | Emerging Leader with Hands-on Business Experience",
+        "country": "Front Royal, Virginie, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/rosie-wingate/"
+    },
+    {
+        "name": "Mohamed (hamada) Tharwat",
+        "headline": "--مصر",
+        "country": "Le Caire, Le Caire, Égypte",
+        "profile_url": "https://www.linkedin.com/in/mohamed-tharwat-a42851381/"
+    },
+    {
+        "name": "Katrina Brjazgunova",
+        "headline": "Junior Purchaser/Buyer @ Monday Merch",
+        "country": "Rotterdam, Hollande Méridionale, Pays-Bas",
+        "profile_url": "https://www.linkedin.com/in/katrinabrjazgunova/"
+    },
+    {
+        "name": "Laura Meeney",
+        "headline": "Adviser with a background in employment coaching, complaint handling, people management and project management",
+        "country": "Sheffield et périphérie",
+        "profile_url": "https://www.linkedin.com/in/laurameeney/"
+    },
+    {
+        "name": "Luca Mezzolla",
+        "headline": "Software Engineer",
+        "country": "Turin, Piémont, Italie",
+        "profile_url": "https://www.linkedin.com/in/luca-mezzolla-51a6651a3/"
+    },
+    {
+        "name": "Jane Birch",
+        "headline": "Head of Programmes",
+        "country": "Taunton, Angleterre, Royaume-Uni",
+        "profile_url": "https://www.linkedin.com/in/jane-birch-a3597182/"
+    },
+    {
+        "name": "Kevin G.",
+        "headline": "Facilities Management Professional",
+        "country": "San Diego, Californie, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/kevingonzales29/"
+    },
+    {
+        "name": "Nette Portillo",
+        "headline": "--",
+        "country": "El Cajon, Californie, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/nette-portillo-b885ba367/"
+    },
+    {
+        "name": "Norhan Atif",
+        "headline": "Headline",
+        "country": "Assiout, Assiout, Égypte",
+        "profile_url": "https://www.linkedin.com/in/norhan-atif-770425258/"
+    },
+    {
+        "name": "Ronald D Pope",
+        "headline": "Quality Assurance Manager @ TransGeneral Life Insurance Company | Applied Sciences, Compliance Auditing",
+        "country": "San Diego, Californie, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/ronald-d-pope-5b948435a/"
+    },
+    {
+        "name": "Gayla Grigson",
+        "headline": "Behavioral Health, Case Management, Utilization Review, Compassionate and Empathetic Nurse Navigator of Chronic Care Diseases.",
+        "country": "Jarrell, Texas, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/gayla-grigson-5a901b5a/"
+    },
+    {
+        "name": "Leanne Corbett",
+        "headline": "Human Resource Professional | Facilitator | Career Coach",
+        "country": "Sutton, Massachusetts, États-Unis",
+        "profile_url": "https://www.linkedin.com/in/leannercorbett/"
     },
     {
         "name": null,
-        "headline": "Head of Procurement Banque Misr",
-        "country": "Le Caire, Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmed-aref-a84579b2/"
+        "headline": null,
+        "country": null,
+        "profile_url": "https://www.linkedin.com/in/rena-kokalari/"
     },
     {
         "name": null,
-        "headline": "HR Manager at Delhi Public School ,Gaya",
-        "country": "Ranchi, Jharkhand, Inde",
-        "profile_url": "https://www.linkedin.com/in/ambreen-ahmed-b714b086/"
+        "headline": null,
+        "country": null,
+        "profile_url": "https://www.linkedin.com/in/%F0%9F%94%B7-sonia-batey-%F0%9F%94%B7-5067a217a/"
     },
     {
         "name": null,
-        "headline": "Senior Human Resources Officer l MBA",
-        "country": "Égypte",
-        "profile_url": "https://www.linkedin.com/in/hedy-ahmed-4b6b0b180/"
-    },
-    {
-        "name": null,
-        "headline": "Human Resources & Administration Manager (Construction)",
-        "country": "Oman",
-        "profile_url": "https://www.linkedin.com/in/ibrar-khan-24852a24/"
-    },
-    {
-        "name": null,
-        "headline": "Regional Human Resource Manager | GCC | Egypt",
-        "country": "Doubaï, Émirats arabes unis",
-        "profile_url": "https://www.linkedin.com/in/ahmedibrahim12/"
-    },
-    {
-        "name": null,
-        "headline": "Management and strategy Consultant| CEO Advisor|Award Winning Entrepreneur|Executive Coach| host of Business Belarabi podcast",
-        "country": "Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmedarashad/"
-    },
-    {
-        "name": null,
-        "headline": "Founder and CEO of Ever Amore Collection First Elected Somali Chair Person of Refugee Community Volunteer at UNHCR and Department of Refugees Services Protection Monitor at HIAS Kenya Parallegal at Kituo cha Sheria",
-        "country": "Mombasa, Comté de Mombasa, Kenya",
-        "profile_url": "https://www.linkedin.com/in/firdaus-ahmed-3a7526304/"
-    },
-    {
-        "name": null,
-        "headline": "Deputy Manager HR & Admin at Alsons Group",
-        "country": "Karachi, Sind, Pakistan",
-        "profile_url": "https://www.linkedin.com/in/junaid-ahmed-08164b150/"
-    },
-    {
-        "name": null,
-        "headline": "Founder & CEO @GROWHUB | Empowering Rural Communities | Building a Sustainable Ecosystem",
-        "country": "Gauhati, Assam, Inde",
-        "profile_url": "https://www.linkedin.com/in/sakil-ahmed-20915b190/"
-    },
-    {
-        "name": null,
-        "headline": "Chief Retail & Premier Banking Officer",
-        "country": "Mascate, Oman",
-        "profile_url": "https://www.linkedin.com/in/abdul-qadir-ahmed-al-sumali-58580213/"
-    },
-    {
-        "name": null,
-        "headline": "Founder & CEO @ Schoobell l Director",
-        "country": "Doubaï, Doubaï, Émirats arabes unis",
-        "profile_url": "https://www.linkedin.com/in/ahmedzenary/"
-    },
-    {
-        "name": null,
-        "headline": "Founder and CEO at Diesel Power Group",
-        "country": "Doubaï, Émirats arabes unis",
-        "profile_url": "https://www.linkedin.com/in/asharif1962/"
-    },
-    {
-        "name": null,
-        "headline": "Chief Operating officer | COO | Certified by Harvard Business school | Certified instructor at Egyptian banking institute| Panel member at banking forums| Member of the executive committee for blockchain usage by CBE",
-        "country": "Nouveau Caire, Le Caire, Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmed-mostafa-elshanet-5a081729/"
-    },
-    {
-        "name": null,
-        "headline": "Managing Director",
-        "country": "Pakistan",
-        "profile_url": "https://www.linkedin.com/in/engr-ahmed-ali-mba/"
-    },
-    {
-        "name": null,
-        "headline": "Founder",
-        "country": "Mumbai, Maharashtra, Inde",
-        "profile_url": "https://www.linkedin.com/in/irshad-ahmed-5734911b0/"
-    },
-    {
-        "name": null,
-        "headline": "Former CEO & Co-founder at TecHub Co, Ltd.",
-        "country": "Dacca, Bangladesh",
-        "profile_url": "https://www.linkedin.com/in/fahad-ahmed-0a87b2190/"
-    },
-    {
-        "name": null,
-        "headline": "Software Developer | Team Lead",
-        "country": "Gouvernorat Ariana, Tunisie",
-        "profile_url": "https://www.linkedin.com/in/chattaoui/"
-    },
-    {
-        "name": null,
-        "headline": "HR and operations",
-        "country": "Rawalpindi, Pendjab, Pakistan",
-        "profile_url": "https://www.linkedin.com/in/shakeelahmed93/"
-    },
-    {
-        "name": null,
-        "headline": "Co - Founder of Figfo.lk",
-        "country": "Colombo, Province de l'Ouest, Sri Lanka",
-        "profile_url": "https://www.linkedin.com/in/infas-ahmed-721712282/"
-    },
-    {
-        "name": null,
-        "headline": "Human Resources Operation Supervisor",
-        "country": "Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmedatia293/"
-    },
-    {
-        "name": null,
-        "headline": "Founder | CEO | Transformative Leadership for Global Growth",
-        "country": "Riyad, Arabie saoudite",
-        "profile_url": "https://www.linkedin.com/in/theahmedmansoor/"
-    },
-    {
-        "name": null,
-        "headline": "Deputy manager",
-        "country": "Gizeh, Égypte",
-        "profile_url": "https://www.linkedin.com/in/habiba-ahmed-1774a0201/"
-    },
-    {
-        "name": null,
-        "headline": "Chief Executive Officer",
-        "country": "Mumbai, Maharashtra, Inde",
-        "profile_url": "https://www.linkedin.com/in/mohammed-ahmed-sheikh/"
-    },
-    {
-        "name": null,
-        "headline": "Storyteller of The Strategy | Thmanyah | Strategist | Build the dots. Love connecting them more.",
-        "country": "Riyad, Arabie saoudite",
-        "profile_url": "https://www.linkedin.com/in/ahmadalhelali/"
-    },
-    {
-        "name": null,
-        "headline": "Human Resource Professional | Talent Acquisition | HR Operations | Organizational Development | Employee Management",
-        "country": "Karachi, Sind, Pakistan",
-        "profile_url": "https://www.linkedin.com/in/moheen-ahmed-270a82129/"
-    },
-    {
-        "name": null,
-        "headline": "Looking for New Opportunities!! I can join immediately",
-        "country": "Inde",
-        "profile_url": "https://www.linkedin.com/in/mohammed-ahmed-03715993/"
-    },
-    {
-        "name": null,
-        "headline": "Recruitment Consultant at Wuzzuf | Recruitment consultant | Tech & non-Tech | Head Hunting | IT Recruitment | HRMP Diploma (AAST) | Talent Acquisition (HRCI)",
-        "country": "Le Caire, Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmed-adel-abdelkhalek-824705252/"
-    },
-    {
-        "name": null,
-        "headline": "CEO of FinTech and Digital Lifestyle, e& Egypt",
-        "country": "Le Caire, Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmed-yehia-bb82511/"
-    },
-    {
-        "name": null,
-        "headline": "COO at Roomzzz and founder of UOWN",
-        "country": "Leeds et périphérie",
-        "profile_url": "https://www.linkedin.com/in/shaan-ahmed-9b147192/"
-    },
-    {
-        "name": null,
-        "headline": "Director of Tournaments",
-        "country": "Pensacola, Floride, États-Unis",
-        "profile_url": "https://www.linkedin.com/in/chris-ahmed48/"
-    },
-    {
-        "name": null,
-        "headline": "Group CEO at URBAN HOLDING",
-        "country": "Doubaï, Émirats arabes unis",
-        "profile_url": "https://www.linkedin.com/in/jazim-ahmed-70493b1a3/"
-    },
-    {
-        "name": null,
-        "headline": "Group CEO",
-        "country": "Mumbai, Maharashtra, Inde",
-        "profile_url": "https://www.linkedin.com/in/saifi-laiq-ahmed-53548453/"
-    },
-    {
-        "name": null,
-        "headline": "Sales | Strategy and Planning | Business Development | Chemicals | Polymers | Import Export | x Engro",
-        "country": "Karachi, Sind, Pakistan",
-        "profile_url": "https://www.linkedin.com/in/ahmed-abdul-wahid/"
-    },
-    {
-        "name": null,
-        "headline": "Founder @Perle | MIT | Ex-Scale AI | Amazon | McKinsey",
-        "country": "Région de la baie de San Francisco",
-        "profile_url": "https://www.linkedin.com/in/ahmed-rashad-perle/"
-    },
-    {
-        "name": null,
-        "headline": "CEO & Founder at AyyadGroup Ltd",
-        "country": "Londres, Angleterre, Royaume-Uni",
-        "profile_url": "https://www.linkedin.com/in/ahmed-ayyad-940bab1aa/"
-    },
-    {
-        "name": null,
-        "headline": "CEO & PRESIDENT @Egypto Medical for Trading S.A.E",
-        "country": "Le Caire, Égypte",
-        "profile_url": "https://www.linkedin.com/in/ahmed-hamdy-elwan-0b5231155/"
-    },
-    {
-        "name": null,
-        "headline": "Human Resources Manager",
-        "country": "Djeddah, La Mecque, Arabie saoudite",
-        "profile_url": "https://www.linkedin.com/in/bader-al-qethmi-5b104510/"
-    },
-    {
-        "name": null,
-        "headline": "HR Manager",
-        "country": "Nouveau Caire, Le Caire, Égypte",
-        "profile_url": "https://www.linkedin.com/in/dr-ahmed-tawfeeq-777ba798/"
+        "headline": null,
+        "country": null,
+        "profile_url": "https://www.linkedin.com/in/grelisa-landicho-276541256/"
     }
 ]
