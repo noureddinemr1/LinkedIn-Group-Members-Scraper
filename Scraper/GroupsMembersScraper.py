@@ -21,6 +21,9 @@ class GroupsMembersScraper:
         self.browser = self.playwright.chromium.launch(headless=False)
         self.context = self.browser.new_context()
         self.page = self.context.new_page()
+        self.page.on("dialog", lambda dialog: dialog.dismiss())
+
+
 
     def stop_browser(self):
         if self.browser:
@@ -38,6 +41,7 @@ class GroupsMembersScraper:
             self.page.click('button[type="submit"]')
             self.page.wait_for_load_state('networkidle')
             print("Logged in successfully")
+            self.page.wait_for_timeout(2000)
         except Exception as e:
             print(f"Login failed: {e}")
 
@@ -50,9 +54,9 @@ class GroupsMembersScraper:
             self.page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
             self.page.wait_for_timeout(random.uniform(0.2, 0.5) * 1000)
 
-            # Click "Show more results" button if it exists
-            show_more_btn = self.page.query_selector('button:has-text("Show more results")')
-            
+            # Click ["Show more results" or "Afficher plus de résultats"] button if it exists
+            show_more_btn = self.page.query_selector('button:has-text("Show more results"), button:has-text("Afficher plus de résultats")')
+
             if show_more_btn:
                 try:
                     show_more_btn.click()
@@ -68,9 +72,11 @@ class GroupsMembersScraper:
                 break
             prev_height = new_height
 
+        
+
 
         
-    def scrape_group_members(self, group_url) -> List[Dict[str, Optional[str]]]:
+    def scrape_group_members(self, group_url,search=None) -> List[Dict[str, Optional[str]]]:
         self.page.goto(group_url)
 
         members = []
@@ -79,13 +85,24 @@ class GroupsMembersScraper:
             self.page.wait_for_timeout(2000)
             content = self.page.content()
 
-            join_button = self.page.query_selector('button:has-text("Join")')
-            if join_button:
+            join_button = self.page.query_selector('button:has(span.a11y-text:has-text("Rejoindre le groupe"))')
+            if join_button.is_visible():
                 join_button.click()
+                self.page.wait_for_timeout(1000)
+                continue_button = self.page.query_selector('button:has-text("Continue"), button:has-text("Continuer")')
+                if continue_button:
+                    continue_button.click()
 
             self.page.wait_for_timeout(2000)
             self.page.goto(urljoin(group_url, "members/"))
             self.page.wait_for_timeout(2000)
+            
+            if search:
+
+                self.page.fill('input[placeholder="Search members"], input[placeholder="Chercher des membres"]', search)
+
+                self.page.keyboard.press("Enter")
+                self.page.wait_for_timeout(2000)
 
             self.scroll_to_load_all_members()
 
@@ -106,10 +123,28 @@ class GroupsMembersScraper:
                 })
 
             print(f"Scraped {len(members)} members")
+
             return members
         except Exception as e:
             print(f"Error scraping members: {e}")
             return members
+        
+    def save_to_csv(self, members: List[Dict[str, Optional[str]]], filename: str):
+        keys = members[0].keys() if members else ['name', 'profile_url']
+        with open(filename, 'w', newline='', encoding='utf-8') as output_file:
+            dict_writer = csv.DictWriter(output_file, fieldnames=keys)
+            dict_writer.writeheader()
+            dict_writer.writerows(members)
+        print(f"Saved data to {filename}")
+
+    def run(self, group_url, output_file,search=None):
+        try:
+            self.startBrowser()
+            self.login()
+            members = self.scrape_group_members(group_url,search)
+            self.save_to_csv(members, output_file)
+        finally:
+            self.stop_browser()
 
 
                 
